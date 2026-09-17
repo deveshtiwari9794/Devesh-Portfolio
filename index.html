@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devesh Tiwari | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h2>Devesh</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="profile-image">
+            <img src="images/profile.jpg" alt="Devesh Tiwari">
+        </div>
+        <h1>Hi, I'm Devesh Tiwari</h1>
+        <h2>Computer Science Graduate</h2>
+
+        <p>I am a fresher and aspiring software developer interested in Web Development and Python.</p>
+
+        <button onclick="viewProjects()">View My Projects</button>
+        <div class="social-links">
+
+    <a href="https://github.com/deveshtiwari9794" target="_blank">GitHub</a>
+
+    <a href="https://www.linkedin.com/in/devesh-tiwari-b40582244/" target="_blank">LinkedIn</a>
+
+    <a href="resume/Devesh_Tiwari_Resume.pdf" target="_blank">Resume</a>
+
+</div>
+    </section>
+
+    <section id="about">
+        <h2>About me</h2>
+        
+        <div class="about-container">
+            <div class="about-card">
+                <h3>Who I am</h3>
+
+        <p>I am a B.Tech Computer Science graduate and a fresher
+        aspiring to build a career in software development.</p>
+        <p>I have learned technologies such as HTML, CSS, JavaScript,
+        React, Python, SQL and MySQL. I enjoy building projects
+        and learning new technologies.</p>
+            </div>
+
+            <div class="about-info">
+                <h3>My Information</h3>
+
+                <p><strong>Education:</strong>B.Tech in Computer Science Engineering</p>
+
+                <p><strong>Experience:</strong>Fresher</p>
+
+                <p><strong>Interest:</strong>Web Development</p>
+
+            </div>
+        </div>    
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <p>Web Page Structure</p>
+            </div>
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <p>Web Page Styling</p>
+            </div>
+
+            <div class="skill-card">
+            <h3>JavaScript</h3>
+            <p>Web Interactivity</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>React</h3>
+            <p>Frontend Development</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Python</h3>
+            <p>Programming</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>SQL</h3>
+            <p>Database Management</p>
+        </div>
+
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+         <div class="projects-container">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+
+            <h3>Weather App</h3>
+
+            <p>
+                A weather application that allows users to search
+                for a city and view temperature, humidity, weather
+                conditions and wind speed.
+            </p>
+
+            <p>
+                <strong>Technologies:</strong>
+                HTML, CSS, JavaScript, React, API
+            </p>
+
+            <a href="https://github.com/deveshtiwari9794/React-weather-app" class="project-btn">View Project</a>
+
+        </div>
+
+
+        <!-- Project 2 -->
+        <div class="project-card">
+
+            <h3>Inventory Management System</h3>
+
+            <p>
+                A Python and MySQL based inventory management system
+                for managing products, stock, sales and low-stock alerts.
+            </p>
+
+            <p>
+                <strong>Technologies:</strong>
+                Python, MySQL, SQL</p>
+
+            <a href="https://github.com/deveshtiwari9794/Inventory-Sales-Management" class="project-btn">View Project</a>
+
+        </div>
+
+    </div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+
+        <form onsubmit="sendMessage(event)">
+
+            <input
+                type="text"
+                placeholder="Your Name"
+            >
+
+            <input
+                type="email"
+                placeholder="Your Email"
+            >
+
+            <textarea
+                placeholder="Your Message"
+                rows="5"
+            ></textarea>
+
+            <button type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+    </div>
+    </section>
+
+    <footer>
+        <p> © 2026 Devesh Tiwari. All Rights Reserved. </p>
+        <p>Built with HTML, CSS & JavaScript</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
